@@ -1,0 +1,44 @@
+#logo {
+    width: 5rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+#intro-picture {
+    width: 10rem;
+    height: auto;
+    border-radius: 5%;
+}
+
+
+
+
+
+
+
+
+
+/* .second-section {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .cards {
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+} */
+
+/* .card {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 30%;
+} */
+
+.card > img {
+    width: 25rem;
+    height: auto;
+}
+
