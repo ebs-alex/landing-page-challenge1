@@ -52,6 +52,24 @@ html, body {
 .quote {
     background-color: #E5E7EB;
     padding: 3rem;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.action-call {
+
+}
+
+.blue-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    margin: 7rem 2rem;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: aliceblue;
 }
 
 .footer {
@@ -135,7 +153,6 @@ html, body {
 }
 
 
-
 /* even smaller sections */
 .nav-links {
     display: flex;
@@ -154,6 +171,11 @@ html, body {
 
 .intro-info button {
     margin-top: 1rem;
+    border: none;
+}
+
+.intro-info button:active {
+    border: 1px inset white;
 }
 
 .card p {
@@ -161,6 +183,30 @@ html, body {
     font-size: 20px;
 }
 
+blockquote p:nth-child(2) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: right;
+    padding-right: 8rem;
+}
+
+.blue-container p,
+.blue-container h3 {
+   margin: 5px;
+}
+
+.blue-container button {
+    width: 7rem;
+    height: 4rem;
+    font-size: 15px;
+    padding: 0;
+    border: 1.5px solid white;
+}
+
+.blue-container button:active {
+    border: none;
+}
 
 
 
@@ -179,6 +225,7 @@ h2 {
     font-size: 35px;
     color:lightgrey
 }
+
 button {
     background-color: #3882f6;
     color: #f9faf8;;
